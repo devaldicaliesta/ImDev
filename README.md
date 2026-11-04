@@ -15,7 +15,7 @@ npx serve public
 ## Deploy (Cloudflare Pages)
 
 ```bash
-npx wrangler pages deploy
+npx wrangler pages deploy public --project-name imdev --branch main
 ```
 
-The Pages project name and output directory are read from `wrangler.toml`.
+Live at https://imdev.pages.dev
