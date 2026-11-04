@@ -28,7 +28,8 @@ html[data-theme="dark"]{--bg:#1f140d;--tint:#2b1c13;--fill:#3a3019;--line:#5c423
 @media (max-width:860px){:root{--c21:minmax(0,1fr);--c11:minmax(0,1fr);--c3:minmax(0,1fr);--c12:minmax(0,1fr);--c-contact:minmax(0,1fr);--nav-desk:none;--nav-mob:flex;--hide-m:none;--bl:none;--bt:1px solid var(--line);--focus-h:460px;--gc-m:1 / -1;--gr-m:auto;--js-m:start}}
 *,*::before,*::after{box-sizing:border-box}
 [hidden]{display:none!important}
-html{scroll-behavior:smooth;scroll-padding-top:100px;color-scheme:light}
+html{scroll-behavior:smooth;scroll-padding-top:100px;color-scheme:light;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+main{overflow-x:clip}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:'Inter',system-ui,sans-serif;font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:clip;transition:background-color .3s,color .3s}
 html[data-lang="en"] body [lang="id"]:not(tanyasaya-chat),html[data-lang="id"] body [lang="en"]:not(tanyasaya-chat){display:none!important}
 html[data-theme="dark"] .lbl-dark,html:not([data-theme="dark"]) .lbl-light{display:none}
