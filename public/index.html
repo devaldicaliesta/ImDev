@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ImDev — Devaldi Caliesta Octadiani · Full Stack Developer &amp; AI-Driven Engineer</title>
+<meta name="description" content="Devaldi Caliesta Octadiani (Dev) — Full Stack Developer &amp; AI-Driven Engineer in West Jakarta. Building reliable business systems, indoor navigation platforms, edge AI platforms, and real-time web applications.">
+<meta name="author" content="Devaldi Caliesta Octadiani">
+<meta name="theme-color" content="#f7f0e4">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ImDev">
+<meta property="og:title" content="ImDev — Devaldi Caliesta Octadiani">
+<meta property="og:description" content="Full Stack Developer &amp; AI-Driven Engineer. Building reliable business systems, indoor navigation platforms, edge AI platforms, and real-time web applications.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script>
+(function(){var r=document.documentElement,t=null,l=null;try{t=localStorage.getItem('imdev-theme');l=localStorage.getItem('imdev-lang')}catch(e){}if(!l){l=(navigator.language||'').toLowerCase().indexOf('id')===0?'id':'en'}r.dataset.theme=t==='dark'?'dark':'light';r.dataset.lang=l==='id'?'id':'en';r.lang=r.dataset.lang})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;family=Poppins:wght@700;800&amp;display=swap">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Devaldi Caliesta Octadiani","alternateName":"Dev","jobTitle":"Full Stack Developer & AI-Driven Engineer","email":"mailto:devaldicaliesta@gmail.com","address":{"@type":"PostalAddress","addressLocality":"West Jakarta","addressCountry":"ID"},"sameAs":["https://www.linkedin.com/in/devaldicaliestaoctadiani/"],"alumniOf":{"@type":"CollegeOrUniversity","name":"Ahmad Dahlan University"},"worksFor":{"@type":"Organization","name":"PT Dinamis Infomadya"}}
+</script>
+<style>
+:root{--bg:#f7f0e4;--tint:#e9ecd2;--fill:#d6dfb0;--line:#cdb594;--fg:#4a2c1d;--btn:#5c7a2b;--btn-h:#486220;--on-btn:#fffaf0;--code-bg:#4a2c1d;--code-fg:#f7f0e4;--code-key:#d6dfb0;--code-str:#f0c88c;--code-mute:#b99d7e;--grid:color-mix(in srgb,var(--line) 55%,transparent);--px:clamp(16px,2vw,28px);--display:'Poppins',sans-serif;--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;--c21:minmax(0,2fr) minmax(0,1fr);--c11:repeat(2,minmax(0,1fr));--c3:repeat(3,minmax(0,1fr));--c12:repeat(12,minmax(0,1fr));--c-contact:minmax(0,1.6fr) minmax(48px,0.32fr) minmax(0,1.6fr);--nav-desk:grid;--nav-mob:none;--hide-m:grid;--bl:1px solid var(--line);--bt:none;--focus-h:auto}
+html[data-theme="dark"]{--bg:#1f140d;--tint:#2b1c13;--fill:#3a3019;--line:#5c4230;--fg:#e9d9bd;--btn:#a9c26b;--btn-h:#bfd685;--on-btn:#1f140d;--code-bg:#150e09;--code-fg:#e9d9bd;--code-key:#a9c26b;--code-str:#e4b878;--code-mute:#8a6a50;color-scheme:dark}
+@media (max-width:860px){:root{--c21:minmax(0,1fr);--c11:minmax(0,1fr);--c3:minmax(0,1fr);--c12:minmax(0,1fr);--c-contact:minmax(0,1fr);--nav-desk:none;--nav-mob:flex;--hide-m:none;--bl:none;--bt:1px solid var(--line);--focus-h:460px;--gc-m:1 / -1;--gr-m:auto;--js-m:start}}
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;scroll-padding-top:100px;color-scheme:light}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:'Inter',system-ui,sans-serif;font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:clip;transition:background-color .3s,color .3s}
+html[data-lang="en"] body [lang="id"],html[data-lang="id"] body [lang="en"]{display:none!important}
+html[data-theme="dark"] .lbl-dark,html:not([data-theme="dark"]) .lbl-light{display:none}
+a{color:var(--fg);text-decoration:none}
+a:hover{color:var(--btn-h)}
+h1,h2,h3,p,ul,ol,figure{margin:0}
+ul,ol{padding:0;list-style:none}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--btn);outline-offset:2px}
+.skip{position:absolute;left:12px;top:-80px;z-index:99;padding:10px 16px;background:var(--btn);color:var(--on-btn)}
+.skip:focus{top:12px;color:var(--on-btn)}
+.d{font-family:var(--display);font-weight:800;text-transform:uppercase}
+@keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes march{to{stroke-dashoffset:-28}}
+@keyframes blink{50%{opacity:0}}
+
+.bar{position:sticky;top:0;z-index:30;background:var(--bg);border-bottom:1px solid var(--line);transition:background-color .3s}
+.nav-desk{display:var(--nav-desk);grid-template-columns:minmax(220px,1.8fr) minmax(72px,0.5fr) minmax(0,3.4fr) minmax(96px,0.7fr) minmax(180px,2fr)}
+.logo{display:flex;align-items:center;gap:8px;font-family:var(--display);font-weight:800;text-transform:uppercase;letter-spacing:-0.03em}
+.nav-desk .logo{padding:0 clamp(16px,2.5vw,40px);font-size:clamp(20px,1.8vw,26px)}
+.logo-mark{width:.8em;height:.8em;flex:none;background:var(--fg);clip-path:polygon(0 0,100% 0,100% 100%,62% 100%,62% 38%,0 38%)}
+.cell-btn{display:flex;justify-content:center;align-items:center;background:var(--fill);border:0;border-left:1px solid var(--line);color:var(--fg);cursor:pointer;transition:background-color .2s}
+.cell-btn:hover{background:var(--tint)}
+.lang-btn{gap:6px;font-size:14px;letter-spacing:.04em}
+.lang-btn .lo{opacity:.45;transition:opacity .2s}
+html[data-lang="en"] .lo-en,html[data-lang="id"] .lo-id{opacity:1;font-weight:700}
+.theme-btn{flex-direction:column;gap:8px;font-size:13px}
+.theme-ico{width:16px;height:16px;border:1.6px solid var(--fg);border-radius:50%;background:linear-gradient(90deg,var(--fg) 50%,transparent 50%)}
+.nav-grid{display:grid;grid-template-columns:1fr 1fr;border-left:1px solid var(--line)}
+.nav-grid a{display:flex;justify-content:center;align-items:center;height:48px;font-size:16px;transition:background-color .2s}
+.nav-grid a:hover{background:var(--tint);color:var(--fg)}
+.nav-grid a:nth-child(odd){border-right:1px solid var(--line)}
+.nav-grid a:nth-child(-n+2){border-bottom:1px solid var(--line)}
+.cta-col{display:grid;grid-template-rows:48px 48px;border-left:1px solid var(--line)}
+.cta-main{display:flex;justify-content:center;align-items:center;background:var(--btn);color:var(--on-btn);font-size:16px;transition:background-color .2s}
+.cta-main:hover{background:var(--btn-h);color:var(--on-btn)}
+.cta-sub{display:flex;justify-content:center;align-items:center;gap:8px;font-size:15px}
+.in-ico{width:16px;height:16px;flex:none;border:1.6px solid currentColor;border-radius:4px;display:inline-flex;align-items:center;justify-content:center;font-family:var(--display);font-weight:800;font-size:8px;line-height:1}
+.nav-mob{display:var(--nav-mob);align-items:stretch;justify-content:space-between;height:60px}
+.nav-mob .logo{padding:0 16px;font-size:20px}
+.nav-mob-btns{display:flex}
+.nav-mob .cell-btn{width:60px}
+.nav-mob .lang-btn{font-size:13px;gap:4px}
+.theme-ico-lg{width:18px;height:18px}
+.menu-btn{width:60px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;background:var(--btn);border:0;cursor:pointer}
+.menu-btn span{width:20px;height:2px;background:var(--on-btn);transition:transform .2s,opacity .2s}
+.menu-btn[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.menu-btn[aria-expanded="true"] span:nth-child(2){opacity:0}
+.menu-btn[aria-expanded="true"] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.m-nav{display:var(--nav-mob);flex-direction:column;border-top:1px solid var(--line);background:var(--bg);max-height:calc(100vh - 60px);overflow-y:auto}
+.m-nav a{padding:18px 16px;border-bottom:1px solid var(--line);font-family:var(--display);font-weight:800;font-size:22px;text-transform:uppercase}
+.m-nav a.m-cta{background:var(--btn);color:var(--on-btn);font-family:'Inter',sans-serif;font-size:17px;font-weight:500;text-transform:none;border-bottom:0;overflow-wrap:anywhere}
+
+.mast{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:end;gap:clamp(24px,4vw,64px);background:var(--tint);padding:clamp(40px,7vw,104px) var(--px) clamp(40px,6vw,88px)}
+.mast-title{font-size:clamp(72px,20vw,380px);line-height:.8;letter-spacing:-0.055em;margin-left:-0.04em}
+.mast-meta{display:flex;flex-direction:column;gap:6px;justify-self:end;max-width:380px;font-size:clamp(15px,1.15vw,18px);line-height:1.45;padding-bottom:.3em}
+.mast-hi{font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.mast-name{font-family:var(--display);font-weight:700;font-size:clamp(20px,1.8vw,28px);line-height:1.15;letter-spacing:-0.02em}
+.hero-row{display:grid;grid-template-columns:var(--c11);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.code-wrap{position:relative;aspect-ratio:5/3;min-width:0;display:flex;flex-direction:column;background:var(--code-bg);color:var(--code-fg);transition:background-color .3s}
+.code-top{display:flex;align-items:center;gap:8px;padding:14px clamp(16px,2.4vw,32px);border-bottom:1px solid color-mix(in srgb,var(--code-mute) 35%,transparent);font-family:var(--mono);font-size:12px;color:var(--code-mute)}
+.code-top i{width:10px;height:10px;background:var(--code-mute)}
+.code-top i:first-child{background:var(--code-key)}
+.code-top b{margin-left:auto;font-weight:400}
+.code{flex:1;margin:0;padding:clamp(16px,2.4vw,32px);overflow:auto;font-family:var(--mono);font-size:clamp(11px,.98vw,15px);line-height:1.7;white-space:pre}
+.code .n{display:inline-block;width:2.4em;color:var(--code-mute);user-select:none}
+.code .k{color:var(--code-key)}
+.code .s{color:var(--code-str)}
+.code .m{color:var(--code-mute)}
+.caret{display:inline-block;width:.6em;height:1.15em;vertical-align:-0.2em;background:var(--code-key);animation:blink 1.1s steps(1) infinite}
+.hero-copy{display:flex;flex-direction:column;justify-content:center;gap:32px;padding:clamp(32px,5vw,64px) clamp(16px,5vw,64px);border-left:var(--bl);border-top:var(--bt)}
+.lead{font-size:clamp(17px,1.4vw,20px);line-height:1.5;max-width:560px;text-wrap:pretty}
+.btn-row{display:flex;flex-wrap:wrap;align-items:center;gap:20px 28px}
+.btn{display:inline-block;align-self:flex-start;padding:14px 26px;background:var(--btn);color:var(--on-btn);font-size:16px;font-weight:500;clip-path:polygon(0 0,calc(100% - 14px) 0,100% 14px,100% 100%,0 100%);transition:background-color .2s}
+.btn:hover{background:var(--btn-h);color:var(--on-btn)}
+.ulink{font-size:16px;text-decoration:underline;text-underline-offset:4px}
+@media (max-width:860px){.mast{grid-template-columns:minmax(0,1fr)}.mast-title{font-size:26vw}.mast-meta{justify-self:start}.code-wrap{aspect-ratio:auto}}
+
+.ticker{padding:24px 0;border-bottom:1px solid var(--line);overflow:hidden}
+.ticker-track{display:flex;width:max-content;animation:ticker 40s linear infinite}
+.ticker:hover .ticker-track{animation-play-state:paused}
+.ticker-group{display:flex}
+.ticker-group span{display:flex;align-items:center;gap:48px;padding-right:48px;font-family:var(--display);font-weight:700;font-size:24px;letter-spacing:-0.02em;text-transform:uppercase;white-space:nowrap}
+.ticker-group span::after{content:"";width:10px;height:10px;flex:none;background:var(--fg)}
+
+.focus{display:grid;grid-template-columns:var(--c21);border-bottom:1px solid var(--line)}
+.focus-list{display:flex;flex-direction:column;min-width:0}
+.h-xl{font-size:clamp(40px,6vw,100px);line-height:.95;letter-spacing:-0.035em;padding:clamp(40px,6vw,80px) var(--px)}
+.focus-item{display:flex;justify-content:space-between;align-items:center;gap:16px;width:100%;padding:20px clamp(16px,4vw,60px);border:0;border-top:1px solid var(--line);background:var(--bg);color:var(--fg);text-align:left;cursor:pointer;transition:background-color .2s,color .2s}
+.focus-item.is-on{background:var(--btn);color:var(--on-btn)}
+.focus-item .d{font-size:clamp(22px,2.6vw,40px);line-height:1.1;letter-spacing:-0.02em}
+.focus-item .fi-no{flex:none;font-size:15px}
+.focus-stage{position:relative;min-height:var(--focus-h);border-left:var(--bl);border-top:var(--bt);background-color:var(--fill)}
+.grid-bg{background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:32px 32px;background-position:-1px -1px}
+.focus-panel{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:space-between;gap:24px;padding:clamp(24px,3.4vw,52px);opacity:0;visibility:hidden;transition:opacity .4s ease,visibility 0s linear .4s}
+.focus-panel.is-on{opacity:1;visibility:visible;transition:opacity .4s ease}
+.fp-head{display:flex;align-items:flex-start;gap:10px}
+.fp-no{font-size:clamp(96px,11vw,200px);line-height:.8;letter-spacing:-0.05em}
+.fp-of{font-size:15px}
+.fp-body{display:flex;flex-direction:column;gap:20px}
+.fp-body p{font-size:clamp(16px,1.25vw,19px);line-height:1.55;max-width:460px;text-wrap:pretty}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tags li{padding:6px 11px;border:1px solid var(--line);font-size:13px;line-height:1.3;background:var(--bg)}
+
+.about{padding:clamp(64px,9vw,128px) clamp(16px,3vw,48px)}
+.about-intro{max-width:600px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+.h-lg{font-size:clamp(34px,4vw,56px);line-height:1;letter-spacing:-0.03em}
+.about-intro p{font-size:17px;line-height:1.65;text-wrap:pretty}
+.about-tiles{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.2fr) minmax(0,1fr);gap:clamp(8px,1.2vw,16px);align-items:center;max-width:1000px;margin:clamp(36px,5vw,56px) auto}
+.tile{display:flex;flex-direction:column;justify-content:space-between;gap:16px;padding:clamp(16px,1.8vw,26px)}
+.t-side{aspect-ratio:4/5}
+.t-main{aspect-ratio:5/6}
+.t-fill{background:var(--fill)}
+.t-btn{background:var(--btn);color:var(--on-btn)}
+.t-line{border:1px solid var(--line);background:var(--tint)}
+.t-label{font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.t-num{font-size:clamp(34px,4.4vw,64px);line-height:.9;letter-spacing:-0.04em}
+.t-word{font-size:clamp(22px,2.4vw,34px);line-height:.95;letter-spacing:-0.03em}
+.t-head{font-size:clamp(28px,3.2vw,46px);line-height:.95;letter-spacing:-0.03em}
+.t-note{font-size:14px;line-height:1.45}
+.t-main p{font-size:clamp(15px,1.2vw,17px);line-height:1.6;text-wrap:pretty}
+.about-quote{margin:0 auto;max-width:520px;font-size:17px;line-height:1.65;text-indent:3em;text-wrap:pretty}
+@media (max-width:860px){.about-tiles{grid-template-columns:repeat(2,minmax(0,1fr))}.t-main{grid-column:1 / -1;order:-1;aspect-ratio:auto;min-height:360px}.t-side{aspect-ratio:1/1}}
+
+.sec-head{display:grid;grid-template-columns:var(--c21);background:var(--tint);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.sec-count{display:var(--hide-m);place-items:center;padding:40px;border-left:1px solid var(--line);font-size:clamp(56px,6vw,96px);line-height:1;letter-spacing:-0.04em}
+.sec-head.arrowed{grid-template-columns:minmax(0,1.9fr) minmax(0,1fr)}
+.h-xl2{font-size:clamp(34px,5.6vw,88px);line-height:.95;letter-spacing:-0.035em;padding:clamp(28px,4vw,48px) var(--px)}
+.sec-arrow{display:flex;align-items:center;justify-content:center;border-left:1px solid var(--line);padding:20px}
+.sec-arrow svg{width:clamp(44px,8vw,110px);height:auto}
+
+.do-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border-bottom:1px solid var(--line)}
+.do-grid li{display:flex;flex-direction:column;justify-content:space-between;gap:40px;min-height:220px;padding:clamp(22px,2.4vw,36px) var(--px);background:var(--bg);transition:background-color .2s}
+.do-grid li:hover{background:var(--tint)}
+.do-no{font-size:15px}
+.do-grid p{font-size:clamp(16px,1.25vw,19px);line-height:1.45;text-wrap:pretty;max-width:320px}
+@media (max-width:1100px){.do-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.do-grid{grid-template-columns:minmax(0,1fr)}.do-grid li{min-height:0}}
+
+.proj{display:flex;flex-direction:column;gap:clamp(28px,4vw,48px);padding:clamp(56px,8vw,112px) var(--px) 0}
+.proj-top{display:grid;grid-template-columns:var(--c11);gap:16px;align-items:start}
+.proj-text{grid-column:var(--gc-m,1);grid-row:var(--gr-m,1);display:flex;flex-direction:column;gap:16px;max-width:560px}
+.proj-meta{grid-column:var(--gc-m,2);grid-row:var(--gr-m,1);justify-self:var(--js-m,end);font-size:16px}
+a.proj-meta{text-decoration:underline;text-underline-offset:4px}
+.proj.flip .proj-text{grid-column:var(--gc-m,2)}
+.proj.flip .proj-meta{grid-column:var(--gc-m,1);justify-self:var(--js-m,start)}
+@media (max-width:860px){.proj-meta{grid-row:2}}
+.proj-cat{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;font-size:14px}
+.badge{padding:4px 10px;background:var(--btn);color:var(--on-btn);font-size:12px;font-weight:500;letter-spacing:.06em;text-transform:uppercase}
+.h-proj{font-size:clamp(30px,3.8vw,56px);line-height:1;letter-spacing:-0.03em}
+.proj-kicker{margin-top:-6px;font-family:var(--display);font-weight:700;font-size:clamp(15px,1.2vw,18px);text-transform:uppercase;letter-spacing:-0.01em}
+.proj-sub{font-size:17px;line-height:1.5;font-style:italic;text-wrap:pretty}
+.proj-sum{font-size:16px;line-height:1.6;text-wrap:pretty}
+.proj-tiles{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.5fr) minmax(0,1fr);gap:clamp(8px,2.6vw,28px);align-items:start}
+.p-hl{display:flex;flex-direction:column;gap:16px;padding:clamp(18px,2vw,28px);background:var(--tint)}
+.p-art{position:relative;aspect-ratio:1/1;background-color:var(--fill);color:var(--fg)}
+.p-art svg{position:absolute;inset:8%;width:84%;height:84%}
+.p-art-no{position:absolute;left:16px;top:14px;font-size:15px}
+.p-art-name{position:absolute;right:16px;bottom:14px;font-family:var(--display);font-weight:700;font-size:13px;text-transform:uppercase}
+.p-tech{aspect-ratio:4/5;display:flex;flex-direction:column;justify-content:space-between;gap:24px;padding:clamp(18px,2vw,28px);border:1px solid var(--line)}
+.p-tech-top{display:flex;flex-direction:column;gap:16px}
+.hl-list{display:flex;flex-direction:column;gap:12px}
+.hl-list li{position:relative;padding-left:20px;font-size:15px;line-height:1.55;text-wrap:pretty}
+.hl-list li::before{content:"";position:absolute;left:0;top:.55em;width:8px;height:8px;background:var(--fg)}
+.hl-list code,.proj-sum code,.p-hl code{font-family:var(--mono);font-size:.92em}
+@media (max-width:1200px){.proj-tiles{grid-template-columns:repeat(2,minmax(0,1fr))}.p-art{grid-column:1 / -1;order:-1;aspect-ratio:16/9}}
+@media (max-width:640px){.proj-tiles{grid-template-columns:minmax(0,1fr)}.p-art{aspect-ratio:1/1}.p-tech{aspect-ratio:auto}}
+
+.art .ln{fill:none;stroke:currentColor;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+.art .lnf{fill:var(--fill);stroke:currentColor;stroke-width:2.5;stroke-linejoin:round}
+.art .thin{fill:none;stroke:currentColor;stroke-width:1.5;opacity:.6}
+.art .fg{fill:currentColor}
+.art .ac{fill:var(--btn)}
+.art .acl{fill:none;stroke:var(--btn);stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+.art .acl2{fill:none;stroke:var(--btn);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.art .route{stroke-dasharray:2 12;animation:march 1.4s linear infinite}
+.art .bgc{fill:var(--fill)}
+.art .onb{fill:var(--on-btn)}
+.art .hdl{stroke:currentColor;stroke-width:10;stroke-linecap:round}
+.art text{font-family:var(--mono);font-size:15px;fill:currentColor}
+.art .act{fill:var(--btn);font-weight:700}
+
+.ent{padding-top:clamp(64px,9vw,128px)}
+.ent-grid{display:grid;grid-template-columns:var(--c12);gap:clamp(40px,6vw,80px) clamp(12px,2vw,28px);padding:clamp(40px,6vw,72px) var(--px) clamp(64px,9vw,128px)}
+.ent-card{grid-column:var(--gc-m,var(--col));display:flex;flex-direction:column;gap:14px;align-self:start}
+.ent-panel{aspect-ratio:var(--ratio);display:flex;flex-direction:column;justify-content:space-between;gap:20px;padding:clamp(18px,2.2vw,32px);background:var(--tint)}
+.ent-card:nth-child(even) .ent-panel{background:var(--fill)}
+.ent-top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
+.ent-sub{font-size:clamp(22px,2.4vw,36px);line-height:1;letter-spacing:-0.025em;max-width:16ch}
+.ent-no{flex:none;font-size:15px}
+.ent-body{display:flex;flex-direction:column;gap:16px}
+.ent-body p{font-size:15px;line-height:1.6;max-width:540px;text-wrap:pretty}
+.ent-more summary{display:inline-flex;align-items:baseline;gap:8px;cursor:pointer;list-style:none;font-family:var(--display);font-weight:700;font-size:15px;text-transform:uppercase;letter-spacing:-0.01em}
+.ent-more summary::-webkit-details-marker{display:none}
+.ent-more summary .pl{display:inline-block;transition:transform .2s}
+.ent-more[open] summary .pl{transform:rotate(45deg)}
+.ent-more .hl-list{padding-top:16px}
+
+.tool-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border-bottom:1px solid var(--line)}
+.tool{display:flex;flex-direction:column;gap:18px;padding:clamp(24px,2.6vw,40px) var(--px) clamp(28px,3vw,48px);background:var(--bg);transition:background-color .2s}
+.tool:hover{background:var(--tint)}
+.tool-no{font-size:15px}
+.tool h3{font-size:clamp(20px,1.8vw,28px);line-height:1.05;letter-spacing:-0.02em}
+@media (max-width:1100px){.tool-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.tool-grid{grid-template-columns:minmax(0,1fr)}}
+
+.xp-row{display:grid;grid-template-columns:minmax(0,0.8fr) minmax(0,1.2fr) minmax(0,2fr);gap:12px clamp(16px,3vw,48px);padding:clamp(28px,3.4vw,48px) var(--px);border-bottom:1px solid var(--line);transition:background-color .2s}
+.xp-row:hover{background:var(--tint)}
+.xp-when{font-size:15px;padding-top:.35em}
+.xp-role h3{font-size:clamp(22px,2.2vw,32px);line-height:1.05;letter-spacing:-0.02em}
+.xp-role p{margin-top:8px;font-size:16px}
+.xp-desc{font-size:16px;line-height:1.6;max-width:640px;text-wrap:pretty}
+@media (max-width:860px){.xp-row{grid-template-columns:minmax(0,1fr)}}
+.edu{display:grid;grid-template-columns:var(--c11);background:var(--tint);border-bottom:1px solid var(--line)}
+.edu>div{display:flex;flex-direction:column;gap:14px;padding:clamp(28px,4vw,56px) clamp(16px,6vw,96px)}
+.edu>div+div{border-left:var(--bl);border-top:var(--bt)}
+.edu h3{font-size:clamp(26px,2.6vw,36px);line-height:1.05;letter-spacing:-0.02em}
+.edu-meta{display:flex;flex-direction:column;gap:4px;font-size:16px}
+
+.traits{display:grid;grid-template-columns:var(--c11);border-bottom:1px solid var(--line)}
+.traits>div{display:flex;flex-direction:column;gap:28px;padding:clamp(48px,7vw,96px) clamp(16px,4vw,64px)}
+.traits>div+div{border-left:var(--bl);border-top:var(--bt)}
+.rows li{display:grid;grid-template-columns:40px minmax(0,1fr);gap:12px;padding:14px 0;border-top:1px solid var(--line);font-size:16px;line-height:1.5;text-wrap:pretty}
+.rows li:last-child{border-bottom:1px solid var(--line)}
+.rows li>b{font-family:var(--display);font-weight:800;font-size:14px;padding-top:.12em}
+
+.contact-head{display:grid;grid-template-columns:var(--c-contact);background:var(--tint);border-bottom:1px solid var(--line)}
+.h-contact{font-size:clamp(38px,5.6vw,88px);line-height:.95;letter-spacing:-0.035em;padding:clamp(36px,5vw,64px) var(--px)}
+.contact-deco{display:var(--hide-m);grid-template-rows:1fr 1fr 1fr;border-left:1px solid var(--line);border-right:1px solid var(--line)}
+.contact-deco div:nth-child(2){background:var(--bg);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.contact-copy{display:flex;flex-direction:column;justify-content:center;gap:24px;padding:clamp(28px,4vw,48px) clamp(16px,3vw,40px);border-top:var(--bt)}
+.contact-copy p{font-size:17px;line-height:1.55;text-wrap:pretty}
+.channels{display:grid;grid-template-columns:var(--c3);border-bottom:1px solid var(--line)}
+.channels>div{display:flex;flex-direction:column;gap:12px;padding:clamp(28px,4vw,56px) clamp(16px,3vw,48px)}
+.channels>div+div{border-left:var(--bl);border-top:var(--bt)}
+.channels h3{font-size:clamp(26px,2.6vw,36px);letter-spacing:-0.02em}
+.channels a{overflow-wrap:anywhere}
+
+.foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;padding:24px var(--px) 32px;font-size:14px}
+
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.ticker-track,.art .route,.caret{animation:none}*,*::before,*::after{transition:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main"><span lang="en">Skip to content</span><span lang="id">Langsung ke konten</span></a>
+
+<div class="bar">
+  <header class="nav-desk">
+    <a href="#top" class="logo"><span class="logo-mark"></span>ImDev</a>
+    <button type="button" class="cell-btn lang-btn" data-lang-toggle aria-label="Switch language / Ganti bahasa"><span class="lo lo-en">EN</span><span aria-hidden="true">/</span><span class="lo lo-id">ID</span></button>
+    <nav class="nav-grid" aria-label="Primary">
+      <a href="#top"><span lang="en">Home</span><span lang="id">Beranda</span></a>
+      <a href="#work"><span lang="en">Work</span><span lang="id">Karya</span></a>
+      <a href="#experience"><span lang="en">Experience</span><span lang="id">Pengalaman</span></a>
+      <a href="#contact"><span lang="en">Contact</span><span lang="id">Kontak</span></a>
+    </nav>
+    <button type="button" class="cell-btn theme-btn" data-theme-toggle aria-label="Toggle dark mode">
+      <span class="theme-ico"></span>
+      <span><span class="lbl-dark"><span lang="en">Dark</span><span lang="id">Gelap</span></span><span class="lbl-light"><span lang="en">Light</span><span lang="id">Terang</span></span></span>
+    </button>
+    <div class="cta-col">
+      <a class="cta-main" href="mailto:devaldicaliesta@gmail.com"><span lang="en">Email Me</span><span lang="id">Kirim Email</span></a>
+      <a class="cta-sub" href="https://www.linkedin.com/in/devaldicaliestaoctadiani/" target="_blank" rel="noopener"><span class="in-ico">in</span>LinkedIn</a>
+    </div>
+  </header>
+
+  <header class="nav-mob">
+    <a href="#top" class="logo"><span class="logo-mark"></span>ImDev</a>
+    <div class="nav-mob-btns">
+      <button type="button" class="cell-btn lang-btn" data-lang-toggle aria-label="Switch language / Ganti bahasa"><span class="lo lo-en">EN</span><span aria-hidden="true">/</span><span class="lo lo-id">ID</span></button>
+      <button type="button" class="cell-btn" data-theme-toggle aria-label="Toggle dark mode"><span class="theme-ico theme-ico-lg"></span></button>
+      <button type="button" class="menu-btn" data-menu-toggle aria-label="Menu" aria-expanded="false" aria-controls="m-nav"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+  <nav class="m-nav" id="m-nav" aria-label="Mobile" hidden>
+    <a href="#top"><span lang="en">Home</span><span lang="id">Beranda</span></a>
+    <a href="#focus"><span lang="en">Focus</span><span lang="id">Fokus</span></a>
+    <a href="#about"><span lang="en">About</span><span lang="id">Tentang</span></a>
+    <a href="#work"><span lang="en">Work</span><span lang="id">Karya</span></a>
+    <a href="#toolbox"><span lang="en">Toolbox</span><span lang="id">Perangkat</span></a>
+    <a href="#experience"><span lang="en">Experience</span><span lang="id">Pengalaman</span></a>
+    <a href="#contact"><span lang="en">Contact</span><span lang="id">Kontak</span></a>
+    <a class="m-cta" href="mailto:devaldicaliesta@gmail.com"><span lang="en">Email</span><span lang="id">Email ke</span> devaldicaliesta@gmail.com</a>
+  </nav>
+</div>
+
+<main id="main">
+  <section id="top" aria-label="Intro">
+    <div class="mast">
+      <h1 class="d mast-title">ImDev</h1>
+      <div class="mast-meta">
+        <p class="mast-hi"><span lang="en">Hi, I'm Dev —</span><span lang="id">Halo, saya Dev —</span></p>
+        <p class="mast-name">Devaldi Caliesta Octadiani</p>
+        <p>Full Stack Developer &amp; AI-Driven Engineer</p>
+        <p><span lang="en">West Jakarta, Indonesia</span><span lang="id">Jakarta Barat, Indonesia</span></p>
+      </div>
+    </div>
+    <div class="hero-row">
+      <figure class="code-wrap" aria-label="Developer profile as code">
+        <div class="code-top" aria-hidden="true"><i></i><i></i><i></i><b>imdev.ts</b></div>
+<pre class="code"><code><span class="n">1</span><span class="k">export const</span> dev <span class="m">=</span> <span class="m">{</span>
+<span class="n">2</span>  name<span class="m">:</span> <span class="s">"Devaldi Caliesta Octadiani"</span><span class="m">,</span>
+<span class="n">3</span>  alias<span class="m">:</span> <span class="s">"Dev"</span><span class="m">,</span>
+<span class="n">4</span>  role<span class="m">:</span> <span class="s">"Full Stack Developer &amp; AI-Driven Engineer"</span><span class="m">,</span>
+<span class="n">5</span>  base<span class="m">:</span> <span class="s">"West Jakarta, Indonesia"</span><span class="m">,</span>
+<span class="n">6</span>  stack<span class="m">: [</span><span class="s">"C# / .NET"</span><span class="m">,</span> <span class="s">"TypeScript"</span><span class="m">,</span> <span class="s">"Cloudflare Edge"</span><span class="m">],</span>
+<span class="n">7</span>  focus<span class="m">: [</span><span class="s">"Indoor Navigation"</span><span class="m">,</span> <span class="s">"RAG &amp; AI"</span><span class="m">,</span> <span class="s">"FinTech"</span><span class="m">],</span>
+<span class="n">8</span>  award<span class="m">:</span> <span class="s">"Winner, Road to DevFest — GDG Jakarta"</span><span class="m">,</span>
+<span class="n">9</span><span class="m">};</span> <span class="caret"></span></code></pre>
+      </figure>
+      <div class="hero-copy">
+        <p class="lead" lang="en">Building reliable business systems, indoor navigation platforms, edge AI platforms, and real-time web applications.</p>
+        <p class="lead" lang="id">Membangun sistem bisnis andal, platform navigasi dalam gedung, AI edge platforms, dan aplikasi web real-time.</p>
+        <div class="btn-row">
+          <a class="btn" href="mailto:devaldicaliesta@gmail.com"><span lang="en">Email Me</span><span lang="id">Kirim Email</span></a>
+          <a class="ulink" href="https://www.linkedin.com/in/devaldicaliestaoctadiani/" target="_blank" rel="noopener"><span lang="en">Connect on LinkedIn ↗</span><span lang="id">Terhubung di LinkedIn ↗</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="ticker" aria-label="Tech stack">
+    <div class="ticker-track">
+      <div class="ticker-group"><span>Claude Code</span><span>TypeScript</span><span>C# · .NET</span><span>Cloudflare Edge</span><span>MapLibre GL</span><span>RAG Systems</span><span>PostgreSQL</span><span>React 19</span><span>Durable Objects</span><span>West Jakarta</span></div>
+      <div class="ticker-group" aria-hidden="true"><span>Claude Code</span><span>TypeScript</span><span>C# · .NET</span><span>Cloudflare Edge</span><span>MapLibre GL</span><span>RAG Systems</span><span>PostgreSQL</span><span>React 19</span><span>Durable Objects</span><span>West Jakarta</span></div>
+    </div>
+  </div>
+
+  <section id="focus" class="focus">
+    <div class="focus-list">
+      <h2 class="d h-xl"><span lang="en">Every Layer In Focus</span><span lang="id">Fokus Di Setiap Lapisan</span></h2>
+      <button type="button" class="focus-item is-on" data-focus="0" aria-controls="fp-0" aria-pressed="true"><span class="d"><span lang="en">Indoor Navigation &amp; Spatial</span><span lang="id">Navigasi Spasial &amp; Indoor Map</span></span><span class="fi-no">01</span></button>
+      <button type="button" class="focus-item" data-focus="1" aria-controls="fp-1" aria-pressed="false"><span class="d">AI Engineering &amp; Tooling</span><span class="fi-no">02</span></button>
+      <button type="button" class="focus-item" data-focus="2" aria-controls="fp-2" aria-pressed="false"><span class="d"><span lang="en">Business Systems</span><span lang="id">Sistem Bisnis &amp; Operasional</span></span><span class="fi-no">03</span></button>
+      <button type="button" class="focus-item" data-focus="3" aria-controls="fp-3" aria-pressed="false"><span class="d"><span lang="en">Financial Applications</span><span lang="id">Aplikasi Finansial &amp; Investasi</span></span><span class="fi-no">04</span></button>
+      <button type="button" class="focus-item" data-focus="4" aria-controls="fp-4" aria-pressed="false"><span class="d"><span lang="en">Automation &amp; Integration</span><span lang="id">Otomasi &amp; Integrasi</span></span><span class="fi-no">05</span></button>
+      <button type="button" class="focus-item" data-focus="5" aria-controls="fp-5" aria-pressed="false"><span class="d"><span lang="en">End-to-End Development</span><span lang="id">Pengembangan End-to-End</span></span><span class="fi-no">06</span></button>
+    </div>
+    <div class="focus-stage grid-bg">
+      <article class="focus-panel is-on" id="fp-0">
+        <div class="fp-head"><span class="d fp-no">01</span><span class="fp-of">/ 06</span></div>
+        <div class="fp-body">
+          <p lang="en">Pioneered beaconless, zero-install indoor navigation (PanduArah) and commercial mall mapping (Lippo Mall Puri) using MapLibre GL and GeoJSON routing.</p>
+          <p lang="id">Memelopori navigasi dalam gedung tanpa beacon dan tanpa unduh aplikasi (PanduArah) serta pemetaan mal komersial (Lippo Mall Puri) dengan MapLibre GL dan GeoJSON.</p>
+          <ul class="tags"><li>MapLibre GL</li><li>GeoJSON</li><li>Multi-floor Routing</li><li>PWA</li><li>QR Positioning</li></ul>
+        </div>
+      </article>
+      <article class="focus-panel" id="fp-1" aria-hidden="true">
+        <div class="fp-head"><span class="d fp-no">02</span><span class="fp-of">/ 06</span></div>
+        <div class="fp-body">
+          <p lang="en">Deep mastery of Claude &amp; Claude Code workflows, Gemini API, RAG systems with hybrid vector search (BM25 + Vectorize), and prompt security guards.</p>
+          <p lang="id">Penguasaan mendalam alur kerja Claude &amp; Claude Code, Gemini API, sistem RAG hibrida (BM25 + Vectorize), serta guard keamanan prompt.</p>
+          <ul class="tags"><li>Claude Code</li><li>Gemini API</li><li>RAG</li><li>BM25 + Vectorize</li><li>Prompt Guards</li></ul>
+        </div>
+      </article>
+      <article class="focus-panel" id="fp-2" aria-hidden="true">
+        <div class="fp-head"><span class="d fp-no">03</span><span class="fp-of">/ 06</span></div>
+        <div class="fp-body">
+          <p lang="en">I work on internal systems that support operational workflows, data processing, reporting engines, and business administration.</p>
+          <p lang="id">Membangun sistem internal yang mendukung operasional, pemrosesan data, reporting engine, dan administrasi bisnis.</p>
+          <ul class="tags"><li>Back-office</li><li>Reporting Engines</li><li>Live Preview</li><li>Excel &amp; PDF Export</li></ul>
+        </div>
+      </article>
+      <article class="focus-panel" id="fp-3" aria-hidden="true">
+        <div class="fp-head"><span class="d fp-no">04</span><span class="fp-of">/ 06</span></div>
+        <div class="fp-body">
+          <p lang="en">Experience building systems related to Asset Management, Fixed Income, bond workflows, order processing, and accounting integrations.</p>
+          <p lang="id">Pengalaman membangun sistem Asset Management, Fixed Income, alur obligasi, pemrosesan order, dan integrasi akuntansi.</p>
+          <ul class="tags"><li>Asset Management</li><li>Fixed Income</li><li>Bond Workflows</li><li>Accounting Integration</li></ul>
+        </div>
+      </article>
+      <article class="focus-panel" id="fp-4" aria-hidden="true">
+        <div class="fp-head"><span class="d fp-no">05</span><span class="fp-of">/ 06</span></div>
+        <div class="fp-body">
+          <p lang="en">Regularly build automated ETL pipelines, cron jobs, database migrations, and integrations across heterogeneous systems through Open APIs.</p>
+          <p lang="id">Rutin membangun pipeline ETL otomatis, cron job, migrasi database, dan integrasi lintas sistem melalui Open API.</p>
+          <ul class="tags"><li>ETL Pipelines</li><li>Cron Jobs</li><li>DB Migrations</li><li>Open API</li></ul>
+        </div>
+      </article>
+      <article class="focus-panel" id="fp-5" aria-hidden="true">
+        <div class="fp-head"><span class="d fp-no">06</span><span class="fp-of">/ 06</span></div>
+        <div class="fp-body">
+          <p lang="en">Comfortable working across modern frontends (React, Preact, Blazor), robust backends (Node.js, C# ASP.NET, Hono), and edge infrastructure.</p>
+          <p lang="id">Nyaman bekerja lintas frontend modern (React, Preact, Blazor), backend tangguh (Node.js, C# ASP.NET, Hono), dan edge cloud.</p>
+          <ul class="tags"><li>React</li><li>Preact</li><li>Blazor</li><li>Node.js</li><li>C# ASP.NET</li><li>Hono</li></ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-intro">
+      <h2 class="d h-lg"><span lang="en">Behind The Code</span><span lang="id">Di Balik Kode</span></h2>
+      <p lang="en">I am a Full Stack Developer focused on building web-based business systems, internal operations, financial platforms, reporting tools, and modern AI/Edge applications. I handle end-to-end development, from application structure, database architecture, and API development to deployment and maintenance. What I enjoy most is building systems that are actively used in daily operations—simplifying manual work and making workflows more efficient, stable, and scalable.</p>
+      <p lang="id">Saya adalah Full Stack Developer yang berfokus pada pembangunan sistem bisnis berbasis web, operasi internal perusahaan, platform finansial, tools pelaporan, serta aplikasi AI/Edge modern. Saya nyaman menangani pengembangan end-to-end, mulai dari struktur aplikasi, arsitektur database, dan pengembangan API hingga deployment dan pemeliharaan. Hal yang paling saya nikmati adalah membangun sistem yang benar-benar digunakan dalam operasional sehari-hari—menyederhanakan proses manual dan membuat alur kerja lebih efisien, stabil, dan terukur.</p>
+    </div>
+    <div class="about-tiles">
+      <div class="tile t-side t-fill">
+        <span class="t-label"><span lang="en">GPA</span><span lang="id">IPK</span></span>
+        <span class="d t-num">3.79</span>
+        <span class="t-note">Cum Laude · <span lang="en">Ahmad Dahlan University</span><span lang="id">Universitas Ahmad Dahlan</span></span>
+      </div>
+      <div class="tile t-main t-btn">
+        <span class="t-label"><span lang="en">AI Proficiency</span><span lang="id">Kemahiran AI</span></span>
+        <span class="d t-head">AI-Driven Engineering</span>
+        <p lang="en">Extensive expertise in leveraging modern AI tools—particularly Claude and Claude Code—as an engineering accelerator. Proficient in spec-driven development, decomposing complex architectures into verifiable test-first tasks, prompt orchestration, automated code reviews, and building RAG pipelines with Gemini &amp; vector databases.</p>
+        <p lang="id">Memiliki pemahaman mendalam dan keahlian tinggi dalam memanfaatkan AI tools—terutama Claude dan Claude Code—sebagai akselerator rekayasa perangkat lunak. Terampil dalam spec-driven development, memecah arsitektur kompleks menjadi tugas-tugas kecil yang teruji (test-first), orkestrasi prompt, automated code review, serta membangun pipeline RAG menggunakan Gemini dan vector database.</p>
+      </div>
+      <div class="tile t-side t-line">
+        <span class="t-label"><span lang="en">Award</span><span lang="id">Penghargaan</span></span>
+        <span class="d t-word"><span lang="en">Winner</span><span lang="id">Pemenang</span></span>
+        <span class="t-note">Road to DevFest · GDG Jakarta</span>
+      </div>
+    </div>
+    <p class="about-quote" lang="en">I build scalable web-based systems with a strong focus on backend reliability, indoor spatial navigation, edge compute, and business process efficiency.</p>
+    <p class="about-quote" lang="id">Saya membangun sistem berbasis web yang skalabel dengan fokus kuat pada keandalan backend, navigasi spasial dalam ruangan, edge compute, dan efisiensi proses bisnis.</p>
+  </section>
+
+  <section id="services">
+    <div class="sec-head">
+      <h2 class="d h-xl"><span lang="en">What I Do</span><span lang="id">Yang Saya Kerjakan</span></h2>
+      <div class="d sec-count" aria-hidden="true">08</div>
+    </div>
+    <ol class="do-grid">
+      <li><span class="d do-no">01</span><p lang="en">Build web applications for business, operational, and customer needs.</p><p lang="id">Membangun aplikasi web untuk kebutuhan bisnis, operasional, dan publik.</p></li>
+      <li><span class="d do-no">02</span><p lang="en">Architect indoor mapping and spatial multi-floor navigation systems.</p><p lang="id">Merancang sistem pemetaan dan navigasi dalam gedung (indoor mapping) multi-lantai.</p></li>
+      <li><span class="d do-no">03</span><p lang="en">Engineer RAG document chatbots and AI-powered edge platforms.</p><p lang="id">Mengembangkan chatbot dokumen RAG dan platform AI modern di cloud/edge.</p></li>
+      <li><span class="d do-no">04</span><p lang="en">Develop back-office systems, financial platforms, and reporting engines.</p><p lang="id">Mengembangkan sistem back-office, platform finansial, dan reporting engine.</p></li>
+      <li><span class="d do-no">05</span><p lang="en">Create reporting tools with live preview, Excel, and PDF export.</p><p lang="id">Membuat tools pelaporan dengan live preview serta export Excel dan PDF.</p></li>
+      <li><span class="d do-no">06</span><p lang="en">Automate ETL processes, cron jobs, and database synchronizations.</p><p lang="id">Mengotomatisasi proses ETL, cron job, dan sinkronisasi database.</p></li>
+      <li><span class="d do-no">07</span><p lang="en">Develop secure REST APIs and microservices for system integrations.</p><p lang="id">Mengembangkan REST API dan microservices yang aman untuk integrasi sistem.</p></li>
+      <li><span class="d do-no">08</span><p lang="en">Design clean application architectures that are maintainable, testable, and scalable.</p><p lang="id">Merancang arsitektur aplikasi yang rapi, mudah dipelihara, teruji, dan scalable.</p></li>
+    </ol>
+  </section>
+
+  <section id="work" style="padding-top:clamp(64px,9vw,128px)">
+    <div class="sec-head">
+      <h2 class="d h-xl"><span lang="en">Selected Work</span><span lang="id">Karya Pilihan</span></h2>
+      <div class="d sec-count" aria-hidden="true">08</div>
+    </div>
+
+    <article class="proj" id="p-panduarah">
+      <div class="proj-top">
+        <div class="proj-text">
+          <p class="proj-cat"><span class="badge"><span lang="en">Award</span><span lang="id">Penghargaan</span></span><span><span lang="en">Winner</span><span lang="id">Pemenang</span>: Road to DevFest Google (GDG Jakarta)</span></p>
+          <h3 class="d h-proj">PanduArah</h3>
+          <p class="proj-kicker"><span lang="en">Indoor Map &amp; Navigation</span><span lang="id">Peta &amp; Navigasi Dalam Gedung</span></p>
+          <p class="proj-sub" lang="en">Lost inside a building? Scan the code, then follow the map.</p>
+          <p class="proj-sub" lang="id">Tersesat di dalam gedung? Pindai kodenya, lalu ikuti petanya.</p>
+          <p class="proj-sum" lang="en">A zero-beacon, zero-install indoor map and step-by-step navigation platform that runs directly in any mobile phone browser and keeps working offline (PWA). Won the official Road to DevFest project submission competition hosted by Google (GDG Jakarta).</p>
+          <p class="proj-sum" lang="id">Platform peta dan navigasi dalam gedung tanpa beacon dan tanpa aplikasi unduhan yang berjalan langsung di browser ponsel secara offline-first PWA. Pemenang resmi kompetisi submission project Road to DevFest yang diadakan oleh Google (GDG Jakarta).</p>
+        </div>
+        <a class="proj-meta" href="https://panduarah.my.id/" target="_blank" rel="noopener">panduarah.my.id ↗</a>
+      </div>
+      <div class="proj-tiles">
+        <div class="p-hl">
+          <span class="t-label"><span lang="en">Highlights</span><span lang="id">Sorotan</span></span>
+          <ul class="hl-list" lang="en">
+            <li>Won the prestigious Road to DevFest project submission competition held by Google Developer Group (GDG Jakarta).</li>
+            <li>Zero-hardware innovation: solves indoor GPS signal loss by scanning QR codes at known locations without costly Bluetooth beacons.</li>
+            <li>Multi-floor routing with smooth transitions across elevators, escalators, and stairs.</li>
+            <li>Accessible routing switch specifically calculated for wheelchair users and strollers.</li>
+            <li>Built with modern AI-driven engineering practices using Claude Code for test-driven, verifiable modular components.</li>
+          </ul>
+          <ul class="hl-list" lang="id">
+            <li>Memenangkan kompetisi submission project Road to DevFest yang diselenggarakan oleh Google Developer Group (GDG Jakarta).</li>
+            <li>Inovasi zero-hardware: mengatasi hilangnya sinyal GPS dalam gedung via pindai QR code di titik lobi/pintu tanpa beacon Bluetooth yang mahal.</li>
+            <li>Navigasi multi-lantai dengan transisi halus saat berpindah lantai lewat lift, eskalator, dan tangga.</li>
+            <li>Opsi rute aksesibel khusus pengguna kursi roda dan dorongan bayi (menghindari tangga).</li>
+            <li>Dibangun menggunakan metodologi AI-driven engineering terstruktur dengan Claude Code untuk komponen modular berstandar tinggi.</li>
+          </ul>
+        </div>
+        <div class="p-art grid-bg">
+          <span class="d p-art-no">01</span>
+          <svg class="art" viewBox="0 0 400 400" aria-hidden="true">
+            <rect class="ln" x="56" y="64" width="288" height="272"/>
+            <path class="ln" d="M150 64V122M56 160H150V146M250 64V100M250 140V170H344M56 250H88M132 250H150V336M256 336V292M256 262V240H344"/>
+            <path class="thin" d="M288 198H330M288 210H330M288 222H330M176 268H222V306H176Z"/>
+            <path class="acl route" d="M110 284V210H200V120H290"/>
+            <rect class="ln" x="94" y="284" width="32" height="32"/>
+            <path class="fg" d="M98 288h9v9h-9zM113 288h9v9h-9zM98 303h9v9h-9zM114 304h4v4h-4zM119 309h3v3h-3z"/>
+            <path class="ac" d="M290 120c-6-9-20-21-20-34a20 20 0 0 1 40 0c0 13-14 25-20 34z"/>
+            <circle class="bgc" cx="290" cy="86" r="7"/>
+          </svg>
+          <span class="p-art-name">PanduArah</span>
+        </div>
+        <div class="p-tech">
+          <div class="p-tech-top">
+            <span class="t-label"><span lang="en">Technology Stack</span><span lang="id">Teknologi</span></span>
+            <ul class="tags"><li>TypeScript</li><li>React 19</li><li>MapLibre GL</li><li>PWA (Offline-first)</li><li>Tailwind CSS</li><li>Turborepo</li><li>Vitest</li></ul>
+          </div>
+          <a class="btn" href="https://panduarah.my.id/" target="_blank" rel="noopener"><span lang="en">Visit Site ↗</span><span lang="id">Kunjungi Situs ↗</span></a>
+        </div>
+      </div>
+    </article>
+
+    <article class="proj flip" id="p-nara">
+      <div class="proj-top">
+        <div class="proj-text">
+          <p class="proj-cat"><span class="badge"><span lang="en">Own Project</span><span lang="id">Proyek Pribadi</span></span></p>
+          <h3 class="d h-proj">Nara</h3>
+          <p class="proj-kicker">Narasumber Anda — MeetNaraBot</p>
+          <p class="proj-sub" lang="en">A smart, trustworthy RAG-based document chatbot platform.</p>
+          <p class="proj-sub" lang="id">Platform chatbot dokumen cerdas &amp; terpercaya berbasis RAG.</p>
+          <p class="proj-sum" lang="en">A high-accuracy, cost-effective document RAG chatbot platform. Upload a single reference document (guidelines, FAQ, catalog, regulations) and deploy an embeddable bot that answers visitor queries strictly based on the document with interactive clickable source citations [n].</p>
+          <p class="proj-sum" lang="id">Platform chatbot dokumen cerdas (RAG) berbiaya hemat dan presisi tinggi. Pengguna cukup mengunggah satu dokumen pedoman, FAQ, atau regulasi, lalu bot menjawab pertanyaan pengunjung hanya dari dokumen tersebut lengkap dengan nomor sitasi sumber [n] yang dapat diklik.</p>
+        </div>
+        <a class="proj-meta" href="https://nara.panduarahid.workers.dev/" target="_blank" rel="noopener">nara.panduarahid.workers.dev ↗</a>
+      </div>
+      <div class="proj-tiles">
+        <div class="p-hl">
+          <span class="t-label"><span lang="en">Highlights</span><span lang="id">Sorotan</span></span>
+          <ul class="hl-list" lang="en">
+            <li>Hybrid retrieval engine combining semantic vector search (Vectorize 1024-dim) and lexical BM25 (Cloudflare D1 SQLite FTS5) with Reciprocal Rank Fusion (RRF).</li>
+            <li>Intelligent score gating &amp; automated reranker ensuring answers stay 100% grounded in document facts.</li>
+            <li>Extreme token efficiency: greetings, out-of-scope questions, and prompt injection attempts are intercepted without invoking AI.</li>
+            <li>Built-in semantic caching inspired by GPTCache to answer recurring or semantically identical questions instantly.</li>
+            <li>Embeddable lightweight Web Component widget (<code>&lt;tanyasaya-chat&gt;</code>) with dark/light theme and multi-language support.</li>
+          </ul>
+          <ul class="hl-list" lang="id">
+            <li>Mesin retrieval hibrida menggabungkan pencarian vektor semantik (Vectorize 1024-dim) dan BM25 leksikal (Cloudflare D1 SQLite FTS5) dengan Reciprocal Rank Fusion (RRF).</li>
+            <li>Gerbang skor cerdas dan reranker otomatis untuk menjamin jawaban 100% berakar pada fakta dokumen.</li>
+            <li>Efisiensi token maksimal: sapaan, pertanyaan di luar konteks, dan upaya prompt injection dijawab tanpa memanggil AI; cache semantik menahan pertanyaan berulang.</li>
+            <li>Keamanan data dengan isolasi bot, penyamaran data pribadi (PII masking), dan riwayat bertanda tangan.</li>
+            <li>Widget Web Component (<code>&lt;tanyasaya-chat&gt;</code>) siap salin yang ringan tanpa framework eksternal dengan tema gelap/terang dan dwibahasa.</li>
+          </ul>
+        </div>
+        <div class="p-art grid-bg">
+          <span class="d p-art-no">02</span>
+          <svg class="art" viewBox="0 0 400 400" aria-hidden="true">
+            <path class="lnf" d="M56 88H148L180 120V304H56Z"/>
+            <path class="ln" d="M148 88V120H180"/>
+            <rect class="ac" x="72" y="186" width="92" height="18" opacity=".35"/>
+            <path class="thin" d="M74 150H162M74 172H162M74 195H150M74 218H162M74 240H124M74 262H156M74 284H136"/>
+            <rect class="lnf" x="212" y="84" width="140" height="52"/>
+            <path class="thin" d="M228 104H330M228 118H296"/>
+            <rect class="ac" x="196" y="166" width="168" height="124"/>
+            <path class="onb" d="M214 186h116v7H214zM214 202h132v7H214zM214 218h94v7h-94z"/>
+            <rect class="onb" x="214" y="244" width="30" height="26"/>
+            <rect class="onb" x="252" y="244" width="30" height="26"/>
+            <text class="act" x="229" y="262" text-anchor="middle">1</text>
+            <text class="act" x="267" y="262" text-anchor="middle">2</text>
+            <path class="acl2 route" d="M164 195C196 195 178 318 229 318V274"/>
+            <text x="200" y="352" text-anchor="middle">&lt;tanyasaya-chat&gt;</text>
+          </svg>
+          <span class="p-art-name">Nara</span>
+        </div>
+        <div class="p-tech">
+          <div class="p-tech-top">
+            <span class="t-label"><span lang="en">Technology Stack</span><span lang="id">Teknologi</span></span>
+            <ul class="tags"><li>Cloudflare Workers</li><li>Hono (TypeScript)</li><li>Google Gemini API</li><li>Cloudflare Vectorize</li><li>Cloudflare D1 (SQLite FTS5)</li><li>Workers AI</li><li>Playwright</li></ul>
+          </div>
+          <a class="btn" href="https://nara.panduarahid.workers.dev/" target="_blank" rel="noopener"><span lang="en">Visit Site ↗</span><span lang="id">Kunjungi Situs ↗</span></a>
+        </div>
+      </div>
+    </article>
+
+    <article class="proj" id="p-pinkponk">
+      <div class="proj-top">
+        <div class="proj-text">
+          <p class="proj-cat"><span class="badge"><span lang="en">Own Project</span><span lang="id">Proyek Pribadi</span></span></p>
+          <h3 class="d h-proj">PinkPonk</h3>
+          <p class="proj-kicker"><span lang="en">Real-time Neon Ping Pong</span><span lang="id">Ping Pong Neon Real-time</span></p>
+          <p class="proj-sub" lang="en">A 3D web ping pong game with a neon robot mascot &amp; real-time netcode.</p>
+          <p class="proj-sub" lang="id">Game ping pong web 3D dengan robot maskot neon &amp; netcode real-time.</p>
+          <p class="proj-sum" lang="en">A fast-paced web ping pong game featuring a neon robot mascot: Vs AI, 2-player local, real-time online 1v1 multiplayer, and Timing Smash mode. Built completely database-free, running on Cloudflare edge infrastructure.</p>
+          <p class="proj-sum" lang="id">Game ping pong web bertempo cepat dengan robot maskot neon futuristik: mode Vs AI, 2 pemain lokal, online 1v1 multiplayer real-time, dan mode Timing Smash. Dijalankan sepenuhnya tanpa database di edge Cloudflare.</p>
+        </div>
+        <a class="proj-meta" href="https://pinkponk-dev.panduarah.my.id/" target="_blank" rel="noopener">pinkponk-dev.panduarah.my.id ↗</a>
+      </div>
+      <div class="proj-tiles">
+        <div class="p-hl">
+          <span class="t-label"><span lang="en">Highlights</span><span lang="id">Sorotan</span></span>
+          <ul class="hl-list" lang="en">
+            <li>Pure TypeScript deterministic physics simulation engine running independently on client and edge.</li>
+            <li>Low-latency 1v1 multiplayer powered by Cloudflare Workers and Durable Objects using binary protocol and lag compensation.</li>
+            <li>Lazy-loaded Three.js 3D graphics chunk with 4 dynamic camera POVs and dark/light neon themes.</li>
+            <li>Automated QA pipeline with Playwright E2E testing and strict bundle size budgeting.</li>
+          </ul>
+          <ul class="hl-list" lang="id">
+            <li>Simulasi fisika &amp; aturan permainan murni deterministik (pure TypeScript) yang dapat dijalankan secara konsisten di client maupun server edge.</li>
+            <li>Multiplayer 1v1 real-time latensi rendah didukung Cloudflare Workers &amp; Durable Objects dengan protokol biner dan lag compensation.</li>
+            <li>Grafis 3D Three.js yang dimuat lazy dengan 4 sudut kamera sinematik dan tema neon gelap/terang.</li>
+            <li>Pipeline QA otomatis dengan Playwright E2E testing dan kontrol ketat atas budget ukuran berkas web.</li>
+          </ul>
+        </div>
+        <div class="p-art grid-bg">
+          <span class="d p-art-no">03</span>
+          <svg class="art" viewBox="0 0 400 400" aria-hidden="true">
+            <polygon class="lnf" points="120,150 280,150 345,300 55,300"/>
+            <path class="thin" d="M200 150V300"/>
+            <path class="ln" d="M87 226V208H313V226"/>
+            <path class="thin" d="M105 208V226M123 208V226M141 208V226M159 208V226M177 208V226M195 208V226M213 208V226M231 208V226M249 208V226M267 208V226M285 208V226M303 208V226"/>
+            <path class="acl2 route" d="M132 292Q176 196 236 186Q258 150 274 134"/>
+            <ellipse class="thin" cx="236" cy="192" rx="13" ry="3"/>
+            <circle class="ac" cx="236" cy="182" r="8"/>
+            <path class="hdl" d="M300 104l14-14"/>
+            <circle class="lnf" cx="286" cy="118" r="17"/>
+            <path class="hdl" d="M130 338l22 22"/>
+            <circle class="ac" cx="112" cy="318" r="27"/>
+          </svg>
+          <span class="p-art-name">PinkPonk</span>
+        </div>
+        <div class="p-tech">
+          <div class="p-tech-top">
+            <span class="t-label"><span lang="en">Technology Stack</span><span lang="id">Teknologi</span></span>
+            <ul class="tags"><li>Preact</li><li>Three.js</li><li>Cloudflare Workers</li><li>Durable Objects</li><li>WebSockets</li><li>TypeScript</li><li>Playwright</li></ul>
+          </div>
+          <a class="btn" href="https://pinkponk-dev.panduarah.my.id/" target="_blank" rel="noopener"><span lang="en">Play Now ↗</span><span lang="id">Main Sekarang ↗</span></a>
+        </div>
+      </div>
+    </article>
+
+    <article class="proj flip" id="p-lippo">
+      <div class="proj-top">
+        <div class="proj-text">
+          <p class="proj-cat"><span class="badge">Freelance</span></p>
+          <h3 class="d h-proj">Mapping Lippo Mall Puri</h3>
+          <p class="proj-kicker"><span lang="en">Indoor Mall Navigation</span><span lang="id">Navigasi Dalam Mal</span></p>
+          <p class="proj-sub" lang="en">Spatial mapping and tenant directory navigation system for Lippo Mall Puri.</p>
+          <p class="proj-sub" lang="id">Sistem pemetaan spasial dan navigasi direktori tenant Lippo Mall Puri.</p>
+          <p class="proj-sum" lang="en">A commercial indoor mapping and interactive directory system engineered for Lippo Mall Puri (Puri Indah CBD, West Jakarta), providing floor-by-floor navigation, tenant search, and multi-floor pathfinding across the entire mall complex.</p>
+          <p class="proj-sum" lang="id">Sistem pemetaan denah dalam gedung dan direktori navigasi tenant interaktif untuk Lippo Mall Puri (Jakarta Barat), menyediakan panduan rute antar lantai, pencarian toko, dan fasilitas umum di seluruh kompleks mal.</p>
+        </div>
+        <span class="proj-meta">Puri Indah CBD, <span lang="en">West Jakarta</span><span lang="id">Jakarta Barat</span></span>
+      </div>
+      <div class="proj-tiles">
+        <div class="p-hl">
+          <span class="t-label"><span lang="en">Highlights</span><span lang="id">Sorotan</span></span>
+          <ul class="hl-list" lang="en">
+            <li>Digitized multi-level architectural floorplans of Lippo Mall Puri into high-precision interactive GeoJSON layers.</li>
+            <li>Engineered shortest-path algorithm for multi-story routing via escalators, travelators, and customer elevators.</li>
+            <li>Fast indexed search covering hundreds of mall tenants, dining spots, fashion outlets, and promotional zones.</li>
+            <li>Comprehensive directory of essential facilities including nursing rooms, accessible restrooms, ATMs, prayer rooms, and valet/parking zones.</li>
+          </ul>
+          <ul class="hl-list" lang="id">
+            <li>Digitalisasi denah arsitektur multi-lantai Lippo Mall Puri menjadi layer spasial interaktif berbasis GeoJSON presisi tinggi.</li>
+            <li>Algoritma penentuan rute terpendek antar-lantai memperhitungkan koneksi vertikal (eskalator, travelator, dan lift pengunjung).</li>
+            <li>Pencarian terindeks cepat untuk ratusan tenant belanja, gerai kuliner, dan titik promo mal.</li>
+            <li>Direktori fasilitas publik esensial: ruang laktasi/nursery, toilet disabilitas, mushola, ATM center, dan akses parkir.</li>
+          </ul>
+        </div>
+        <div class="p-art grid-bg">
+          <span class="d p-art-no">04</span>
+          <svg class="art" viewBox="0 0 400 400" aria-hidden="true">
+            <polygon class="lnf" points="200,60 330,100 200,140 70,100"/>
+            <polygon class="lnf" points="200,155 330,195 200,235 70,195"/>
+            <polygon class="lnf" points="200,250 330,290 200,330 70,290"/>
+            <path class="thin" d="M135 120L265 80M135 215L265 175M135 310L265 270"/>
+            <path class="fg" d="M247 97h7v7h-7zM267 107h7v7h-7zM227 117h7v7h-7zM147 192h7v7h-7zM167 182h7v7h-7zM257 202h7v7h-7zM277 192h7v7h-7zM247 297h7v7h-7zM267 287h7v7h-7z"/>
+            <path class="acl route" d="M130 300L208 276V86L156 102"/>
+            <circle class="fg" cx="130" cy="300" r="7"/>
+            <circle class="ac" cx="156" cy="102" r="10"/>
+            <text x="22" y="105">L3</text>
+            <text x="22" y="200">L2</text>
+            <text x="22" y="295">L1</text>
+          </svg>
+          <span class="p-art-name">Lippo Mall Puri</span>
+        </div>
+        <div class="p-tech">
+          <div class="p-tech-top">
+            <span class="t-label"><span lang="en">Technology Stack</span><span lang="id">Teknologi</span></span>
+            <ul class="tags"><li>TypeScript</li><li>MapLibre GL / Leaflet</li><li>GeoJSON Spatial Engine</li><li>Multi-Floor Routing</li><li>REST API</li><li>Tailwind CSS</li></ul>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <div class="ent">
+      <div class="sec-head arrowed">
+        <h2 class="d h-xl2"><span lang="en">Enterprise Platforms</span><span lang="id">Platform Enterprise</span></h2>
+        <div class="sec-arrow"><svg viewBox="0 0 100 100" aria-hidden="true"><polygon points="18,4 4,18 62,76 30,76 30,96 96,96 96,30 76,30 76,62" fill="currentColor"/></svg></div>
+      </div>
+      <div class="ent-grid">
+        <article class="ent-card" style="--col:1 / 6;--ratio:4/3">
+          <div class="ent-panel">
+            <div class="ent-top"><p class="d ent-sub">Enterprise Platform Modernization</p><span class="d ent-no">05</span></div>
+            <div class="ent-body">
+              <p lang="en">A comprehensive modernization project that transformed a legacy system into a scalable, high-performance web-based platform for back-office operations and financial business workflows.</p>
+              <p lang="id">Proyek modernisasi menyeluruh yang mentransformasi sistem warisan (legacy) menjadi platform web modern yang skalabel dan berkinerja tinggi untuk operasional back-office dan workflow finansial.</p>
+              <ul class="tags"><li>ASP.NET Core</li><li>C#</li><li>PostgreSQL</li><li>Blazor</li><li>Redis</li><li>IIS</li><li>Linux</li><li>YARP</li></ul>
+            </div>
+          </div>
+          <details class="ent-more">
+            <summary>Asset Management Platform <span class="pl">+</span></summary>
+            <ul class="hl-list" lang="en">
+              <li>Architected and built a greenfield enterprise project structure from the ground up.</li>
+              <li>Developed rich reporting tools with dynamic web preview, styled Excel, and PDF export.</li>
+              <li>Engineered core business modules for portfolio tracking and transactional accounting.</li>
+              <li>Implemented YARP (Yet Another Reverse Proxy) for secure, unified API gateway management.</li>
+            </ul>
+            <ul class="hl-list" lang="id">
+              <li>Merancang dan membangun struktur proyek enterprise greenfield dari awal.</li>
+              <li>Mengembangkan tools pelaporan kaya fitur dengan live web preview, export Excel rapi, dan dokumen PDF.</li>
+              <li>Membangun modul bisnis inti untuk pelacakan portofolio aset dan pencatatan transaksi.</li>
+              <li>Mengimplementasikan YARP Reverse Proxy untuk manajemen gateway dan routing API yang aman.</li>
+            </ul>
+          </details>
+        </article>
+
+        <article class="ent-card" style="--col:7 / 13;--ratio:16/10">
+          <div class="ent-panel">
+            <div class="ent-top"><p class="d ent-sub">Financial Bonds &amp; Workflow Engine</p><span class="d ent-no">06</span></div>
+            <div class="ent-body">
+              <p lang="en">A mission-critical financial web platform designed to manage fixed income investment workflows, bond transaction lifecycles, automated trade matching, and regulatory reporting.</p>
+              <p lang="id">Platform web finansial mission-critical untuk mengelola alur kerja instrumen fixed income, siklus transaksi obligasi, order processing, dan pelaporan kepatuhan regulasi.</p>
+              <ul class="tags"><li>ASP.NET Core</li><li>C#</li><li>PostgreSQL</li><li>Microsoft SQL Server</li><li>Blazor</li><li>Redis</li><li>IIS</li><li>ETL Cron</li></ul>
+            </div>
+          </div>
+          <details class="ent-more">
+            <summary>Fixed Income Platform <span class="pl">+</span></summary>
+            <ul class="hl-list" lang="en">
+              <li>Engineered the system foundation and domain model from the ground up.</li>
+              <li>Created automated release versioning and deployment installation workflows.</li>
+              <li>Developed cron-based ETL data synchronization jobs bridging SQL Server and PostgreSQL.</li>
+              <li>Designed and documented Open APIs for seamless third-party client integrations.</li>
+              <li>Delivered comprehensive reporting with live browser preview, Excel, and PDF export.</li>
+            </ul>
+            <ul class="hl-list" lang="id">
+              <li>Membangun fondasi sistem dan domain model finansial dari tahap awal.</li>
+              <li>Membuat alur otomatisasi versioning dan workflow instalasi sistem.</li>
+              <li>Mengembangkan proses ETL berbasis cron untuk sinkronisasi data antar SQL Server dan PostgreSQL.</li>
+              <li>Merancang dan mendokumentasikan Open API untuk kemudahan integrasi dengan sistem klien lain.</li>
+              <li>Menyajikan modul pelaporan lengkap dengan live preview, serta export Excel dan PDF.</li>
+            </ul>
+          </details>
+        </article>
+
+        <article class="ent-card" style="--col:1 / 8;--ratio:16/9">
+          <div class="ent-panel">
+            <div class="ent-top"><p class="d ent-sub">Internal Corporate Operations &amp; Monitoring</p><span class="d ent-no">07</span></div>
+            <div class="ent-body">
+              <p lang="en">A centralized branch information and operational reporting system designed for real-time executive monitoring and cross-branch administrative tracking.</p>
+              <p lang="id">Sistem informasi cabang dan pelaporan operasional terpusat yang dirancang untuk monitoring eksekutif dan pemantauan administrasi lintas cabang.</p>
+              <ul class="tags"><li>ASP.NET Core</li><li>C#</li><li>SQL Server</li><li>Blazor</li><li>Redis</li><li>IIS</li></ul>
+            </div>
+          </div>
+          <details class="ent-more">
+            <summary>Branch Information System <span class="pl">+</span></summary>
+            <ul class="hl-list" lang="en">
+              <li>Engineered project structure and database schema from scratch.</li>
+              <li>Developed interactive multi-metric reporting with real-time browser preview.</li>
+              <li>Integrated scheduled Excel and PDF automated export features.</li>
+            </ul>
+            <ul class="hl-list" lang="id">
+              <li>Membangun struktur proyek dan skema database dari nol.</li>
+              <li>Mengembangkan pelaporan performa multi-metrik dengan live preview interaktif.</li>
+              <li>Mengintegrasikan fitur ekspor otomatis laporan ke format Excel dan PDF.</li>
+            </ul>
+          </details>
+        </article>
+
+        <article class="ent-card" style="--col:9 / 13;--ratio:1/1">
+          <div class="ent-panel">
+            <div class="ent-top"><p class="d ent-sub">Legacy Migration &amp; Performance Optimization</p><span class="d ent-no">08</span></div>
+            <div class="ent-body">
+              <p lang="en">A strategic modernization project migrating a visitor-facing portal and CMS from unstructured legacy PHP into a structured, maintainable modern architecture.</p>
+              <p lang="id">Proyek modernisasi strategis yang memigrasikan portal publik dan CMS dari PHP legacy ke arsitektur modern yang terstruktur dan mudah dirawat.</p>
+              <ul class="tags"><li>CodeIgniter 4</li><li>PHP</li><li>Bootstrap</li><li>MySQL</li><li>REST API</li></ul>
+            </div>
+          </div>
+          <details class="ent-more">
+            <summary>Visitor Website Revamp &amp; CMS <span class="pl">+</span></summary>
+            <ul class="hl-list" lang="en">
+              <li>Migrated legacy codebase to CodeIgniter 4 with clean MVC separation.</li>
+              <li>Enhanced responsive frontend experience and improved page speed scores.</li>
+              <li>Refactored content management capabilities for non-technical administrators.</li>
+            </ul>
+            <ul class="hl-list" lang="id">
+              <li>Migrasi kode legacy ke CodeIgniter 4 dengan pemisahan MVC yang bersih.</li>
+              <li>Meningkatkan pengalaman pengguna responsif di berbagai perangkat dan skor kecepatan akses.</li>
+              <li>Memperbarui fitur pengelolaan konten bagi tim administrasi.</li>
+            </ul>
+          </details>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="toolbox">
+    <div class="sec-head">
+      <h2 class="d h-xl"><span lang="en">Technical Toolbox</span><span lang="id">Perangkat Teknis</span></h2>
+      <div class="d sec-count" aria-hidden="true">06</div>
+    </div>
+    <div class="tool-grid">
+      <div class="tool">
+        <span class="d tool-no">01</span>
+        <h3 class="d">AI Tools &amp; LLM Engineering</h3>
+        <ul class="tags"><li>Claude &amp; Claude Code (Advanced Prompts, Spec-driven, Task Decomposition)</li><li>Google Gemini API</li><li>RAG Architecture (Retrieval-Augmented Generation)</li><li>Hybrid Search (Vector Embeddings + BM25 Lexical)</li><li>Semantic Caching</li><li>Workers AI (bge-m3, rerankers)</li><li>Prompt Injection Defense &amp; PII Masking</li></ul>
+      </div>
+      <div class="tool">
+        <span class="d tool-no">02</span>
+        <h3 class="d"><span lang="en">Indoor Mapping &amp; Geospatial</span><span lang="id">Indoor Mapping &amp; Geospasial</span></h3>
+        <ul class="tags"><li>MapLibre GL</li><li>GeoJSON &amp; Spatial Graphs</li><li>Multi-floor Pathfinding / Routing</li><li>PWA (Progressive Web App, Offline-first)</li><li>QR-based Positioning (Zero Beacon)</li><li>Accessible Routing (Wheelchair-friendly)</li><li>Vector Tile Styling</li></ul>
+      </div>
+      <div class="tool">
+        <span class="d tool-no">03</span>
+        <h3 class="d">Backend &amp; Edge Computing</h3>
+        <ul class="tags"><li>C# &amp; ASP.NET Core</li><li>Cloudflare Workers &amp; Hono</li><li>Node.js &amp; TypeScript</li><li>Entity Framework Core</li><li>REST APIs &amp; Microservices</li><li>Cloudflare Durable Objects (Real-time Netcode)</li><li>YARP Reverse Proxy</li><li>WebSocket Protocols</li></ul>
+      </div>
+      <div class="tool">
+        <span class="d tool-no">04</span>
+        <h3 class="d"><span lang="en">Frontend Development</span><span lang="id">Pengembangan Frontend</span></h3>
+        <ul class="tags"><li>React 19 &amp; TypeScript</li><li>Preact &amp; Vite</li><li>Three.js (3D WebGL Rendering)</li><li>Blazor</li><li>Tailwind CSS</li><li>Web Components</li><li>Bootstrap</li><li>HTML5 &amp; Modern CSS</li></ul>
+      </div>
+      <div class="tool">
+        <span class="d tool-no">05</span>
+        <h3 class="d"><span lang="en">Databases &amp; Storage</span><span lang="id">Database &amp; Penyimpanan</span></h3>
+        <ul class="tags"><li>Cloudflare Vectorize (1024-dim Vector DB)</li><li>Cloudflare D1 (SQLite + FTS5 Full-Text Search)</li><li>PostgreSQL</li><li>Microsoft SQL Server</li><li>Redis Caching &amp; PubSub</li><li>Database Migrations &amp; ETL</li></ul>
+      </div>
+      <div class="tool">
+        <span class="d tool-no">06</span>
+        <h3 class="d"><span lang="en">Workflow, Testing &amp; Infrastructure</span><span lang="id">Workflow, Testing &amp; Infrastruktur</span></h3>
+        <ul class="tags"><li>Git &amp; GitHub Actions (CI/CD)</li><li>Playwright (E2E &amp; UI Testing)</li><li>node:test &amp; Vitest (Unit Testing)</li><li>Turborepo &amp; Monorepos</li><li>Linux &amp; IIS Web Server</li><li>Jira, Azure DevOps, Agile &amp; Scrum</li><li>SDLC Best Practices</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" style="padding-top:clamp(64px,9vw,128px)">
+    <div class="sec-head arrowed">
+      <h2 class="d h-xl2"><span lang="en">Experience</span><span lang="id">Pengalaman</span></h2>
+      <div class="sec-arrow"><svg viewBox="0 0 100 100" aria-hidden="true"><polygon points="18,4 4,18 62,76 30,76 30,96 96,96 96,30 76,30 76,62" fill="currentColor"/></svg></div>
+    </div>
+    <ol>
+      <li class="xp-row">
+        <p class="xp-when"><span lang="en">May 2024 – Present</span><span lang="id">Mei 2024 – Sekarang</span></p>
+        <div class="xp-role"><h3 class="d">Full Stack Developer</h3><p>PT Dinamis Infomadya</p></div>
+        <p class="xp-desc" lang="en">Focused on developing enterprise back-office systems, financial modules, high-volume reporting engines, automated ETL jobs, and API integrations. Key contributions include Asset Management Platform, Fixed Income Platform, and Branch Information System.</p>
+        <p class="xp-desc" lang="id">Fokus pada pengembangan sistem back-office enterprise, modul finansial, reporting engine skala besar, cron-based ETL, dan integrasi API. Berkontribusi utama pada proyek Asset Management, Fixed Income, dan Branch Information System.</p>
+      </li>
+      <li class="xp-row">
+        <p class="xp-when">Mar 2022 – Jul 2023</p>
+        <div class="xp-role"><h3 class="d"><span lang="en">Laboratory Assistant</span><span lang="id">Asisten Laboratorium</span></h3><p>Information Systems Laboratory UAD</p></div>
+        <p class="xp-desc" lang="en">Supported programming, algorithms, and data mining practicums. Prepared curriculum materials, mentored students in coding projects, and reviewed academic software artifacts.</p>
+        <p class="xp-desc" lang="id">Mendukung kegiatan praktikum pemrograman, algoritma, dan data mining. Menyiapkan materi, membimbing peserta praktikum dalam proyek pemrograman, dan meninjau dokumentasi akademis.</p>
+      </li>
+      <li class="xp-row">
+        <p class="xp-when">Feb 2022 – Jul 2022</p>
+        <div class="xp-role"><h3 class="d"><span lang="en">Internship Full Stack Developer</span><span lang="id">Magang Full Stack Developer</span></h3><p>CV Lumintu Logic</p></div>
+        <p class="xp-desc" lang="en">Contributed to the development of an enterprise Learning Management System (LMS), focusing on frontend UI/UX implementation, database design, SQL queries, and payment gateway module integration.</p>
+        <p class="xp-desc" lang="id">Berkontribusi dalam pengembangan Learning Management System (LMS), khususnya implementasi frontend UI/UX, struktur database relasional, query SQL, dan integrasi payment gateway.</p>
+      </li>
+    </ol>
+    <div class="edu">
+      <div>
+        <span class="t-label"><span lang="en">Education</span><span lang="id">Pendidikan</span></span>
+        <h3 class="d"><span lang="en">Ahmad Dahlan University (UAD)</span><span lang="id">Universitas Ahmad Dahlan (UAD)</span></h3>
+        <div class="edu-meta">
+          <span><span lang="en">Bachelor of Information Systems (S.Kom)</span><span lang="id">Sarjana Sistem Informasi (S.Kom)</span></span>
+          <span>2019 — 2023</span>
+          <span><span lang="en">GPA</span><span lang="id">IPK</span> 3.79 / 4.00 (Cum Laude)</span>
+        </div>
+      </div>
+      <div>
+        <span class="t-label"><span lang="en">Activities &amp; Academic Work</span><span lang="id">Kegiatan &amp; Karya Akademik</span></span>
+        <ul class="hl-list" lang="en">
+          <li>Google Developer Students Club (GDSC) Core Member.</li>
+          <li>Head Assistant for Information Systems Laboratory.</li>
+          <li>Published thesis on data classification and web intelligence.</li>
+        </ul>
+        <ul class="hl-list" lang="id">
+          <li>Anggota Inti Google Developer Students Club (GDSC).</li>
+          <li>Kepala Asisten Laboratorium Sistem Informasi.</li>
+          <li>Menerbitkan skripsi tentang klasifikasi data dan web intelligence.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="traits" aria-label="Strengths and interests">
+    <div>
+      <h2 class="d h-lg"><span lang="en">Strengths</span><span lang="id">Kekuatan</span></h2>
+      <ol class="rows" lang="en">
+        <li><b>01</b><span>Analytical thinking &amp; deep domain exploration.</span></li>
+        <li><b>02</b><span>High attention to detail in UX, edge cases, and code quality.</span></li>
+        <li><b>03</b><span>System-level thinking &amp; scalable architectural planning.</span></li>
+        <li><b>04</b><span>AI-native acceleration: adept with Claude Code for rapid, high-standard execution.</span></li>
+        <li><b>05</b><span>Adaptability to diverse stacks (Node/TS, C#/.NET, Cloudflare Edge, Spatial).</span></li>
+        <li><b>06</b><span>Continuous learner keeping pace with state-of-the-art tech.</span></li>
+        <li><b>07</b><span>Strong end-to-end ownership from initial idea to production deployment.</span></li>
+      </ol>
+      <ol class="rows" lang="id">
+        <li><b>01</b><span>Pemikiran analitis &amp; eksplorasi domain yang mendalam.</span></li>
+        <li><b>02</b><span>Ketelitian tinggi terhadap detail UX, penanganan edge case, dan kualitas kode.</span></li>
+        <li><b>03</b><span>System-level thinking &amp; perancangan arsitektur yang terukur.</span></li>
+        <li><b>04</b><span>Akselerasi AI-native: sangat terampil dengan Claude Code untuk eksekusi cepat dan rapi.</span></li>
+        <li><b>05</b><span>Kemampuan adaptasi tinggi lintas stack teknologi (.NET, Node/TS, Cloudflare Edge, Spasial).</span></li>
+        <li><b>06</b><span>Pembelajar berkelanjutan yang selalu memperbarui wawasan teknologi mutakhir.</span></li>
+        <li><b>07</b><span>Rasa kepemilikan (ownership) yang kuat dari perencanaan awal hingga deploy ke produksi.</span></li>
+      </ol>
+    </div>
+    <div>
+      <h2 class="d h-lg"><span lang="en">Current Interests</span><span lang="id">Minat Saat Ini</span></h2>
+      <ol class="rows" lang="en">
+        <li><b>01</b><span>AI Agents, Tool Calling &amp; Autonomous LLM Workflows.</span></li>
+        <li><b>02</b><span>Cloudflare Edge &amp; Serverless Architectures (Workers, Vectorize, Durable Objects).</span></li>
+        <li><b>03</b><span>Indoor Spatial Navigation &amp; Sensor Fusion (WiFi, IMU, Vision).</span></li>
+        <li><b>04</b><span>High-throughput Financial Platforms &amp; Real-time Matching Engines.</span></li>
+        <li><b>05</b><span>Decoupled, Test-Driven Software Architectures.</span></li>
+      </ol>
+      <ol class="rows" lang="id">
+        <li><b>01</b><span>AI Agents, Tool Calling &amp; Alur Kerja LLM Otonom.</span></li>
+        <li><b>02</b><span>Arsitektur Cloudflare Edge &amp; Serverless (Workers, Vectorize, Durable Objects).</span></li>
+        <li><b>03</b><span>Navigasi Spasial Dalam Ruangan &amp; Integrasi Sensor.</span></li>
+        <li><b>04</b><span>Platform Finansial Berkecepatan Tinggi &amp; Real-time Engine.</span></li>
+        <li><b>05</b><span>Arsitektur Perangkat Lunak Decoupled dan Test-Driven.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-head">
+      <h2 class="d h-contact"><span lang="en">Let's Build Together</span><span lang="id">Mari Membangun Bersama</span></h2>
+      <div class="contact-deco" aria-hidden="true"><div></div><div></div><div></div></div>
+      <div class="contact-copy">
+        <p lang="en">Have a system to build, a workflow to automate, or an idea worth discussing? Email is the fastest way to reach me.</p>
+        <p lang="id">Punya sistem untuk dibangun, alur kerja untuk diotomasi, atau ide yang layak didiskusikan? Email adalah cara tercepat untuk menghubungi saya.</p>
+        <a class="btn" href="mailto:devaldicaliesta@gmail.com"><span lang="en">Email Me</span><span lang="id">Kirim Email</span></a>
+      </div>
+    </div>
+    <div class="channels">
+      <div>
+        <h3 class="d">Email</h3>
+        <a class="ulink" href="mailto:devaldicaliesta@gmail.com">devaldicaliesta@gmail.com</a>
+        <span><span lang="en">For projects and collaboration</span><span lang="id">Untuk proyek dan kolaborasi</span></span>
+      </div>
+      <div>
+        <h3 class="d">LinkedIn</h3>
+        <a class="ulink" href="https://www.linkedin.com/in/devaldicaliestaoctadiani/" target="_blank" rel="noopener">Devaldi Caliesta Octadiani</a>
+        <span><span lang="en">Professional profile &amp; history</span><span lang="id">Profil &amp; riwayat profesional</span></span>
+      </div>
+      <div>
+        <h3 class="d"><span lang="en">Location</span><span lang="id">Lokasi</span></h3>
+        <span><span lang="en">West Jakarta, Indonesia</span><span lang="id">Jakarta Barat, Indonesia</span></span>
+        <span>GMT+7 · WIB</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span>© <span data-year>2026</span> ImDev · Devaldi Caliesta Octadiani.</span>
+  <a href="#top"><span lang="en">Back to top ↑</span><span lang="id">Kembali ke atas ↑</span></a>
+</footer>
+
+<script>
+(function(){
+  var root=document.documentElement;
+  var meta=document.querySelector('meta[name="theme-color"]');
+  function save(k,v){try{localStorage.setItem(k,v)}catch(e){}}
+  function syncTheme(){if(meta){meta.setAttribute('content',root.dataset.theme==='dark'?'#1f140d':'#f7f0e4')}}
+  syncTheme();
+  document.querySelectorAll('[data-theme-toggle]').forEach(function(b){
+    b.addEventListener('click',function(){
+      var t=root.dataset.theme==='dark'?'light':'dark';
+      root.dataset.theme=t;save('imdev-theme',t);syncTheme();
+    });
+  });
+  document.querySelectorAll('[data-lang-toggle]').forEach(function(b){
+    b.addEventListener('click',function(){
+      var l=root.dataset.lang==='id'?'en':'id';
+      root.dataset.lang=l;root.lang=l;save('imdev-lang',l);
+    });
+  });
+  var menu=document.getElementById('m-nav');
+  var mb=document.querySelector('[data-menu-toggle]');
+  function setMenu(open){menu.hidden=!open;mb.setAttribute('aria-expanded',open?'true':'false')}
+  mb.addEventListener('click',function(){setMenu(menu.hidden)});
+  menu.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){setMenu(false)})});
+  window.addEventListener('resize',function(){if(window.innerWidth>860)setMenu(false)});
+  var items=Array.prototype.slice.call(document.querySelectorAll('.focus-item'));
+  var panels=Array.prototype.slice.call(document.querySelectorAll('.focus-panel'));
+  function activate(i){
+    items.forEach(function(b,j){b.classList.toggle('is-on',i===j);b.setAttribute('aria-pressed',i===j?'true':'false')});
+    panels.forEach(function(p,j){p.classList.toggle('is-on',i===j);if(i===j){p.removeAttribute('aria-hidden')}else{p.setAttribute('aria-hidden','true')}});
+  }
+  items.forEach(function(b,i){
+    b.addEventListener('mouseenter',function(){activate(i)});
+    b.addEventListener('focus',function(){activate(i)});
+    b.addEventListener('click',function(){activate(i)});
+  });
+  document.querySelectorAll('[data-year]').forEach(function(e){e.textContent=new Date().getFullYear()});
+})();
+</script>
+</body>
+</html>
