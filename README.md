@@ -33,6 +33,8 @@ npx serve public
 
 ## Deploy (Cloudflare Pages)
 
+Every push to `main` deploys automatically through `.github/workflows/deploy.yml` (needs the `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` repository secrets). You can also start it by hand from the Actions tab ("Run workflow"). Manual deploy from a computer:
+
 ```bash
 npx wrangler pages deploy public --project-name imdev --branch main
 ```
