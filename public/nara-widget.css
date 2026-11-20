@@ -16,7 +16,7 @@
   z-index:2147483000;
   right:20px;
   bottom:20px;
-  font-family:'Space Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
   font-size:15px;
   line-height:1.5;
   color:var(--w-fg);
@@ -106,7 +106,7 @@ svg{display:block}
 }
 .avatar::before{content:"";width:16px;height:16px;background:currentColor;clip-path:var(--w-mark)}
 .title{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center}
-.title strong{display:block;font-weight:600;font-size:15.5px;line-height:1.2;letter-spacing:-.015em}
+.title strong{display:block;font-family:'Plus Jakarta Sans','Inter',sans-serif;font-weight:700;font-size:15.5px;line-height:1.2;letter-spacing:-.015em}
 .title span{display:block;margin-top:2px;font-size:12px;color:var(--w-mute);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .icon-btn{
   flex:none;
