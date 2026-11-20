@@ -162,8 +162,8 @@ html[data-theme="light"] .hero::before{filter:invert(1);opacity:.09}
 .kin-lead{color:transparent;-webkit-text-stroke:1.5px var(--fg)}
 .kin-word{height:1.8em;margin-top:.08em;overflow:hidden;overflow-wrap:anywhere;contain:layout paint}
 .kin-word .ks{font-family:var(--mono);font-weight:700;color:var(--mute)}
+.kn{display:inline-block;white-space:nowrap}
 .kc{display:inline-block;transform-origin:50% 100%;scale:1 var(--sy,1);transition:scale .35s var(--ease)}
-.kc.sp{width:.24em}
 .kin-meta{display:flex;flex-wrap:wrap;align-items:center;gap:12px 18px;font-family:var(--mono);font-size:12px;color:var(--mute)}
 .kin-dots{display:flex;gap:6px}
 .kin-dots i{width:9px;height:9px;border:1.5px solid var(--fg);border-radius:50%;transition:background-color .3s}
@@ -409,6 +409,7 @@ html[data-theme="light"] .f-art.dk,html[data-theme="light"] .cs-art.dk{backgroun
   .ht-2{transform:translateX(2%)}
   .hero-meta{bottom:22px}
   .hero-tag{max-width:64%}
+  .kin-lead,.kin-word{font-size:clamp(34px,10.6vw,64px)}
   .form{grid-template-columns:minmax(0,1fr)}
   .f-links{grid-template-columns:repeat(2,max-content)}
   .foot-end{flex-direction:column;align-items:flex-start}
@@ -1317,9 +1318,16 @@ html[data-theme="light"] .f-art.dk,html[data-theme="light"] .cs-art.dk{backgroun
     kinReset();setIdx();
     if(motionOK){
       var kCopy=$('.kin-copy',kin),kl=[];
+      /* letters are wrapped per word (.kn, no-wrap) with a plain space between words,
+         so a long lead like "Saya membangun" only wraps between words */
       $$('[lang]',$('.kin-lead',kin)).forEach(function(el){
-        var t=el.textContent;el.textContent='';
-        for(var i=0;i<t.length;i++){var ch=t.charAt(i),s=document.createElement('span');s.className='kc'+(ch===' '?' sp':'');s.textContent=ch===' '?' ':ch;el.appendChild(s);if(ch!==' ')kl.push(s)}
+        var ws=el.textContent.trim().split(/\s+/);el.textContent='';
+        ws.forEach(function(w,wi){
+          if(wi)el.appendChild(document.createTextNode(' '));
+          var wr=document.createElement('span');wr.className='kn';
+          for(var i=0;i<w.length;i++){var s=document.createElement('span');s.className='kc';s.textContent=w.charAt(i);wr.appendChild(s);kl.push(s)}
+          el.appendChild(wr);
+        });
       });
       stretch(kCopy,kl,.24);
       kCopy.addEventListener('pointerenter',function(){kPaused=true});
