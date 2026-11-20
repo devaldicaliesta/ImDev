@@ -1,13 +1,13 @@
 # Graph Report - ImDev  (2026-11-20)
 
 ## Corpus Check
-- 1 files · ~7,656 words
+- 1 files · ~7,687 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
 - 130 nodes · 350 edges · 7 communities
 - Extraction: 76% EXTRACTED · 24% INFERRED · 0% AMBIGUOUS · INFERRED: 83 edges (avg confidence: 0.91)
-- Token cost: 569,206 input · 0 output
+- Token cost: 310,403 input · 0 output
 
 ## Community Hubs (Navigation)
 - Motion, Hero & Layout Engine
@@ -26,8 +26,8 @@
 5. `Site layout (dark monochrome portfolio): floating nav pill, < FULL STACK DEVELOPER /> hero whose portrait card flips into About on scroll, kinetic "I build ___" band next to an animated ASCII field, scroll-driven tech ticker, staggered tech stack, project folders with case-study dialogs, wave experience timeline (oldest left, current role right), email-draft contact form, white footer band with ink illustration before a giant name` - 18 edges
 6. `Flying portrait card (.fly): two-faced clone of img/portrait.webp (.fly-f / .fly-b with backface-visibility hidden) that travels from slot a (hero) into slot b (About), flipping once on the way; driven by a CSS scroll-driven animation (.fly.sda) where supported, by renderFly on mouse/trackpad browsers without it, while touch browsers without it keep the two static cards` - 14 edges
 7. `Hero section #top: < FULL STACK / DEVELOPER /> headline, portrait card (slot a), ImDev label and {{ AI-Driven Engineering }} tag over a film-grain layer` - 13 edges
-8. `Kinetic I build band section #build [data-kin]: // what i build label, outlined I build (Saya membangun) lead that wraps only between words, rotating focus word, six dots with a 01 / 06 index, cursor or tap hint, and a dark ASCII terminal card (imdev.ascii · cols×rows header)` - 12 edges
-9. `Case-study dialog #case: 01 / 08 counter, close button, eight hidden .cs articles (badge, title, summary, highlights, [data-art] slot, stack chips, optional site link), Previous / Next` - 12 edges
+8. `Case-study dialog #case: 01 / 08 counter, close button, eight hidden .cs articles (badge, title, summary, highlights, [data-art] slot, stack chips, optional site link), Previous / Next` - 12 edges
+9. `Kinetic I build band section #build [data-kin]: // what i build label, outlined I build (Saya membangun) lead that wraps only between words, rotating focus word, six dots with a 01 / 06 index, cursor or tap hint, and a dark ASCII terminal card (imdev.ascii · cols×rows header)` - 12 edges
 10. `ImDev README: personal site of Devaldi Caliesta Octadiani (Full Stack Developer & AI-Driven Engineer), one static page, no build step, bilingual EN/ID, dark by default with a light theme` - 11 edges
 
 ## Surprising Connections (you probably didn't know these)
@@ -58,7 +58,7 @@
 
 ### Community 0 - "Motion, Hero & Layout Engine"
 Cohesion: 0.19
-Nodes (28): Animated ASCII field [data-ascii]: two stacked pre layers draw plasma noise through a density ramp ( .:-=+*#%@) at about 24 fps with a mouse and 15 fps on touch, with the ImDev mark dissolving in and out on the bright layer and a cursor or tap ripple; sized to the card (cols×rows in the header), held still while the page scrolls, paused off-screen or in a hidden tab, one static frame under reduced motion, Font and image preloads: Google Fonts Archivo + Space Grotesk, img/portrait.webp, Back-to-top replay: #top links arm a flag past half a viewport; once the hero is 70% visible again, scrambleIn() and the fly card intro replay, Footer band motion: DEVALDI letters rise in on view, the illustration steps up, and word and illustration drift with the pointer (--mx / --my) on fine pointers, Cursor-stretch kinetic type stretch(zone, letters, amp): letters near the mouse stretch vertically through --sy (CSS scale on .ht-c and .kc), batched in requestAnimationFrame; applied to the hero headline letters (amp .2) and the I build letters (.kc, grouped per word in no-wrap .kn boxes; amp .24); fine pointers and motionOK only, Design tokens: :root CSS custom properties (dark default palette, Archivo display and Space Grotesk sans fonts, mono stack, --px gutter, --maxw, --ease), drawWave(): cubic Bezier path through the timeline node centres, sets the SVG viewBox and --len for the stroke-draw animation, skipped while the wave is hidden, Flying portrait card (.fly): two-faced clone of img/portrait.webp (.fly-f / .fly-b with backface-visibility hidden) that travels from slot a (hero) into slot b (About), flipping once on the way; driven by a CSS scroll-driven animation (.fly.sda) where supported, by renderFly on mouse/trackpad browsers without it, while touch browsers without it keep the two static cards (+20 more)
+Nodes (28): Animated ASCII field [data-ascii]: two stacked pre layers draw plasma noise through a density ramp ( .:-=+*#%@) at about 24 fps with a mouse and 15 fps on touch, with the ImDev mark dissolving in and out on the bright layer and a cursor or tap ripple; sized to the card (cols×rows in the header), held still while the page scrolls, paused off-screen or in a hidden tab, one static frame under reduced motion, Font and image preloads: Google Fonts Plus Jakarta Sans (wght 300-800) + Inter (wght 400-700), img/portrait.webp, Back-to-top replay: #top links arm a flag past half a viewport; once the hero is 70% visible again, scrambleIn() and the fly card intro replay, Footer band motion: DEVALDI letters rise in on view, the illustration steps up, and word and illustration drift with the pointer (--mx / --my) on fine pointers, Cursor-stretch kinetic type stretch(zone, letters, amp): letters near the mouse stretch vertically through --sy (CSS scale on .ht-c and .kc), batched in requestAnimationFrame; applied to the hero headline letters (amp .2) and the I build letters (.kc, grouped per word in no-wrap .kn boxes; amp .24); fine pointers and motionOK only, Design tokens: :root CSS custom properties (dark default palette, Plus Jakarta Sans display and Inter sans fonts, mono stack, --px gutter, --maxw, --ease), drawWave(): cubic Bezier path through the timeline node centres, sets the SVG viewBox and --len for the stroke-draw animation, skipped while the wave is hidden, Flying portrait card (.fly): two-faced clone of img/portrait.webp (.fly-f / .fly-b with backface-visibility hidden) that travels from slot a (hero) into slot b (About), flipping once on the way; driven by a CSS scroll-driven animation (.fly.sda) where supported, by renderFly on mouse/trackpad browsers without it, while touch browsers without it keep the two static cards (+20 more)
 
 ### Community 1 - "Work, Stack & What I Build"
 Cohesion: 0.16
